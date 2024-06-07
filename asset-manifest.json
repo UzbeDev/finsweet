@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/finsweet/static/css/main.abe255b1.css",
-    "main.js": "/finsweet/static/js/main.9104d8d5.js",
-    "static/js/787.8adb1126.chunk.js": "/finsweet/static/js/787.8adb1126.chunk.js",
+    "main.css": "/finsweet/static/css/main.006d0b64.css",
+    "main.js": "/finsweet/static/js/main.5612e919.js",
+    "static/js/453.e761adcc.chunk.js": "/finsweet/static/js/453.e761adcc.chunk.js",
     "static/media/profilePcture.svg": "/finsweet/static/media/profilePcture.450d8eed0bacb18a1239bc7783a18250.svg",
     "static/media/startedBack.png": "/finsweet/static/media/startedBack.01fc1ac6949051586178.png",
     "static/media/team1.png": "/finsweet/static/media/team1.7ad37bf6449f14d5836e.png",
@@ -33,12 +33,12 @@
     "static/media/facebook.svg": "/finsweet/static/media/facebook.7173de8e8b016fd1309ddac51db71786.svg",
     "index.html": "/finsweet/index.html",
     "static/media/iconback.svg": "/finsweet/static/media/iconback.2f694934a094f982f17a4ed6e0b389e1.svg",
-    "main.abe255b1.css.map": "/finsweet/static/css/main.abe255b1.css.map",
-    "main.9104d8d5.js.map": "/finsweet/static/js/main.9104d8d5.js.map",
-    "787.8adb1126.chunk.js.map": "/finsweet/static/js/787.8adb1126.chunk.js.map"
+    "main.006d0b64.css.map": "/finsweet/static/css/main.006d0b64.css.map",
+    "main.5612e919.js.map": "/finsweet/static/js/main.5612e919.js.map",
+    "453.e761adcc.chunk.js.map": "/finsweet/static/js/453.e761adcc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.abe255b1.css",
-    "static/js/main.9104d8d5.js"
+    "static/css/main.006d0b64.css",
+    "static/js/main.5612e919.js"
   ]
 }
