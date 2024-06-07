@@ -1,0 +1,35 @@
+.blog-section .featured {
+  background: var(--lavender, #F4F0F8);
+  padding: 95px 80px;
+}
+.blog-section .featured .items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blog-section .featured .items .texts .yellow-button {
+  margin-top: 32px;
+}
+
+.all-post hr {
+  margin-top: 32px;
+  opacity: 0.32;
+}
+.all-post .title {
+  margin-top: 64px;
+}
+.all-post .posts .post {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 64px 0;
+  cursor: pointer;
+}
+.all-post .posts .post .img img {
+  width: 490px;
+  height: 318px;
+  flex-shrink: 0;
+}
+.all-post .posts .post .text .mini-text {
+  color: var(--purple, #592EA9);
+}/*# sourceMappingURL=Blog.css.map */

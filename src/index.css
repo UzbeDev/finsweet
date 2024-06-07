@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Sen:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.yellow-button {
+  color: var(--black, #232536);
+  font-family: Sen;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 133.333% */
+  padding: 16px 48px;
+  background: var(--yellow, #FFD050);
+  border-style: solid;
+  border-color: #FFD050;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.yellow-button:hover {
+  color: #FFD050;
+  background: none;
+  border-style: solid;
+  border-color: #FFD050;
+}
+
+.yellow-button:active {
+  background: #FFD050;
+  opacity: 0.8;
+  color: white;
+  border-style: solid;
+  border-color: #FFD050;
+  transition: all 0.1s ease-in-out;
+
+}
+
+.title {
+  color: var(--black, #232536);
+  margin-top: 24px;
+  /* Heading H2 */
+  font-family: Sen;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  /* 133.333% */
+  letter-spacing: -2px;
+}
+
+.sub-title {
+  color: var(--black, #232536);
+
+  /* Heading H2 */
+  font-family: Sen;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  /* 133.333% */
+  letter-spacing: -2px;
+}
+
+.desc {
+  color: var(--medium-grey, #6D6E76);
+  margin-top: 16px;
+  /* Body 1 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* 175% */
+}
+
+.mini-text {
+  color: var(--black, #000);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  /* 125% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.data {
+  color: var(--dark-grey, #4C4C4C);
+
+  /* Label 01 */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+
+  /* 142.857% */
+  margin-top: 32px;
+
+
+}
+
+.data span {
+  color: var(--purple, #592EA9);
+
+  /* Label 01 */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}

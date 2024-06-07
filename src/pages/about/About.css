@@ -1,0 +1,119 @@
+.about-page {
+  margin-top: 373px;
+}
+.about-page .about-intro {
+  position: relative;
+  z-index: -1;
+}
+.about-page .about-intro .front-img {
+  position: absolute;
+  top: 29.5%;
+  right: 8.57%;
+}
+.about-page .about-intro .about-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: -30%;
+  left: 10%;
+}
+.about-page .about-intro .about-card .card {
+  width: 624px;
+  padding: 64px;
+  background: #fff;
+}
+.about-page .about-intro .about-card .desc {
+  width: 477px;
+  margin-left: 32px;
+  margin-bottom: 79px;
+}
+.about-page .about-intro .big-card {
+  margin-top: -5px;
+  width: 1280px;
+  background: var(--lavender, #F4F0F8);
+  padding: 128px 108px 64px 108px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.about-page .about-intro .big-card .desc {
+  width: 516px;
+}
+.about-page .about-intro .block {
+  padding: 32px 48px;
+  background: var(--yellow, #FFD050);
+  width: 630px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-page .about-intro .block .number {
+  color: var(--black, #232536);
+  /* Display */
+  font-family: Sen;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  /* 114.286% */
+  letter-spacing: -2px;
+}
+.about-page .about-intro .block .text {
+  color: var(--black, #232536);
+  /* Body 1 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* 175% */
+}
+.about-page .about-team .card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 0;
+}
+.about-page .about-team .card .text .b-desc {
+  width: 519px;
+  color: var(--black, #232536);
+  /* Heading H4 */
+  font-family: Sen;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  /* 133.333% */
+  margin: 16px 0;
+}
+.about-page .about-team .card .text .desc {
+  width: 519px;
+}
+.about-page .about-team .card .img {
+  position: relative;
+}
+.about-page .about-team .card .img .shape {
+  width: 103px;
+  height: 116px;
+  background: #FFD050;
+  border-radius: 50% 0 0 0;
+  position: absolute;
+  top: 25%;
+  left: -10%;
+}
+.about-page .about-team .card .img .shape2 {
+  border-radius: 100%;
+  width: 74px;
+  height: 74px;
+  flex-shrink: 0;
+  background: #592EA9;
+  position: absolute;
+  bottom: -6%;
+  left: 25%;
+}
+.about-page .author-title {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=About.css.map */

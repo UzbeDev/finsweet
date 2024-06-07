@@ -1,0 +1,60 @@
+.post-section {
+  margin-top: 128px;
+  background: #fff;
+  margin-bottom: 128px;
+  display: flex;
+}
+.post-section .card-side .title {
+  font-size: 36px;
+}
+.post-section .card-side .card {
+  margin-top: 32px;
+  width: 733px;
+  border: 1px solid var(--medium-grey, rgba(109, 110, 118, 0.1176470588));
+  padding: 32px;
+}
+.post-section .card-side .card .yellow-button {
+  margin-top: 48px;
+}
+.post-section .card-side .card .title {
+  margin-top: 16px;
+  font-size: 28px;
+}
+.post-section .choose-side .title {
+  display: flex;
+  justify-content: space-between;
+}
+.post-section .choose-side .title a {
+  color: var(--purple, #592EA9);
+  /* Body 1 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* 175% */
+  text-decoration: none;
+}
+.post-section .choose-side .items {
+  margin-left: 32px;
+  margin-top: 32px;
+}
+.post-section .choose-side .items a {
+  text-decoration: none;
+}
+.post-section .choose-side .items .item {
+  width: 517px;
+  cursor: pointer;
+  padding: 32px;
+}
+.post-section .choose-side .items .item .title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+.post-section .choose-side .items .item .data {
+  margin-top: 0;
+}
+.post-section .choose-side .items .item:hover {
+  background: var(--light-yellow, #FBF6EA);
+}/*# sourceMappingURL=Post.css.map */

@@ -1,0 +1,16 @@
+.section-started {
+  margin-top: 128px;
+}
+.section-started .items {
+  position: relative;
+}
+.section-started .items .main-side {
+  background: #fff;
+  padding: 80px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.section-started .items .main-side .yellow-button {
+  margin-top: 32px;
+}/*# sourceMappingURL=Started.css.map */

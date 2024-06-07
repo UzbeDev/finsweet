@@ -1,0 +1,76 @@
+.author-section {
+    .title {
+        display: flex;
+        justify-content: center;
+        margin-top: 128px;
+    }
+
+    .companys {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        img {
+            cursor: pointer;
+            opacity: .5;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 48px;
+    margin-bottom: 96px;
+    cursor: pointer;
+
+    a {
+        text-decoration: none;
+    }
+
+    .card {
+        width: 296px;
+        background: var(--light-grey, #F4F4F4);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0;
+
+        .desc {
+            margin: 0;
+        }
+
+        img {
+            width: 128px;
+            height: 128px;
+        }
+
+        .social {
+            margin-top: 20px;
+
+            img {
+
+                width: 16px;
+                height: 16px;
+                flex-shrink: 0;
+                margin-left: 16px;
+            }
+        }
+
+        .title {
+            display: unset;
+            justify-content: none;
+            margin-top: 20px;
+        }
+
+        &:hover {
+            background: var(--light-yellow, #FBF6EA);
+        }
+
+    }
+}

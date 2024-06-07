@@ -1,0 +1,37 @@
+.author-page {
+    .author-intro {
+        background: var(--lavender, #F4F0F8);
+        padding: 128px;
+        position: relative;
+        .items {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .text {
+                margin-left: -400px;
+
+                .social {
+                    margin-top: 24px;
+
+                    img {
+                        margin-right: 16px;
+                    }
+                }
+
+                .title {
+                    width: 669px;
+                }
+
+                .desc {
+                    width: 645px;
+                }
+            }
+
+            .line {
+                position: absolute;
+                bottom: 0;
+            }
+        }
+    }
+}

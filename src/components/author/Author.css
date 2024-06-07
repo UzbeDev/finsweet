@@ -1,0 +1,61 @@
+.author-section .title {
+  display: flex;
+  justify-content: center;
+  margin-top: 128px;
+}
+.author-section .companys {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.author-section .companys img {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.author-section .companys img:hover {
+  opacity: 1;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 48px;
+  margin-bottom: 96px;
+  cursor: pointer;
+}
+.cards a {
+  text-decoration: none;
+}
+.cards .card {
+  width: 296px;
+  background: var(--light-grey, #F4F4F4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+.cards .card .desc {
+  margin: 0;
+}
+.cards .card img {
+  width: 128px;
+  height: 128px;
+}
+.cards .card .social {
+  margin-top: 20px;
+}
+.cards .card .social img {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  margin-left: 16px;
+}
+.cards .card .title {
+  display: unset;
+  justify-content: none;
+  margin-top: 20px;
+}
+.cards .card:hover {
+  background: var(--light-yellow, #FBF6EA);
+}/*# sourceMappingURL=Author.css.map */

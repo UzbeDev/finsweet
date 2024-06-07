@@ -1,0 +1,95 @@
+.business-page .intro {
+  background: #F4F0F8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px;
+}
+.business-page .intro .desc {
+  margin: 16px 0 32px 0;
+  width: 515px;
+  text-align: center;
+}
+.business-page .main {
+  padding: 128px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.business-page .main .posts .post {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+.business-page .main .posts .post .text {
+  margin-left: 32px;
+}
+.business-page .main .posts .post .text .mini-text {
+  color: var(--purple, #592EA9);
+}
+.business-page .main .posts .post .text .desc {
+  width: 512px;
+}
+.business-page .main .category-side .title {
+  margin: 0 0 40px 0;
+}
+.business-page .main .category-side .categories {
+  display: unset;
+}
+.business-page .main .category-side .categories .category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 296px;
+  height: 96px;
+  margin-bottom: 24px;
+}
+.business-page .main .category-side .categories .category .img2 {
+  top: 15%;
+  left: unset;
+  right: 20%;
+}
+.business-page .main .category-side .categories .category .title {
+  margin: 0;
+}
+.business-page .main .category-side .tags .title {
+  display: block;
+  margin-top: 48px;
+  margin-bottom: 24px;
+}
+.business-page .main .category-side .tags .buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.business-page .main .category-side .tags .buttons .tag {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0;
+  margin-top: 16px;
+  background: none;
+  color: #232536;
+  font-family: Sen;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 8px 38px;
+  border-radius: 28px;
+  border: 2px solid var(--medium-grey, #6D6E76);
+  cursor: pointer;
+}
+.business-page .main .category-side .tags .buttons .tag:hover {
+  color: #FFD050;
+  background: none;
+  border-style: solid;
+  border-color: #FFD050;
+}
+.business-page .main .category-side .tags .buttons .tag:active {
+  background: #FFD050;
+  opacity: 0.8;
+  color: white;
+  border-style: solid;
+  border-color: #FFD050;
+  transition: all 0.1s ease-in-out;
+}/*# sourceMappingURL=Business.css.map */

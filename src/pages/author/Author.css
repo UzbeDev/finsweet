@@ -1,0 +1,29 @@
+.author-page .author-intro {
+  background: var(--lavender, #F4F0F8);
+  padding: 128px;
+  position: relative;
+}
+.author-page .author-intro .items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.author-page .author-intro .items .text {
+  margin-left: -400px;
+}
+.author-page .author-intro .items .text .social {
+  margin-top: 24px;
+}
+.author-page .author-intro .items .text .social img {
+  margin-right: 16px;
+}
+.author-page .author-intro .items .text .title {
+  width: 669px;
+}
+.author-page .author-intro .items .text .desc {
+  width: 645px;
+}
+.author-page .author-intro .items .line {
+  position: absolute;
+  bottom: 0;
+}/*# sourceMappingURL=Author.css.map */
