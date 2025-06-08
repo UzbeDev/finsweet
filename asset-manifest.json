@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/finsweet/static/css/main.006d0b64.css",
-    "main.js": "/finsweet/static/js/main.29ba5cc3.js",
+    "main.js": "/finsweet/static/js/main.c7454570.js",
     "static/js/453.e761adcc.chunk.js": "/finsweet/static/js/453.e761adcc.chunk.js",
     "static/media/profilePcture.svg": "/finsweet/static/media/profilePcture.f39822d56f82f9101a4e5edab8511741.svg",
     "static/media/startedBack.png": "/finsweet/static/media/startedBack.01fc1ac6949051586178.png",
@@ -34,11 +34,11 @@
     "index.html": "/finsweet/index.html",
     "static/media/iconback.svg": "/finsweet/static/media/iconback.2f694934a094f982f17a4ed6e0b389e1.svg",
     "main.006d0b64.css.map": "/finsweet/static/css/main.006d0b64.css.map",
-    "main.29ba5cc3.js.map": "/finsweet/static/js/main.29ba5cc3.js.map",
+    "main.c7454570.js.map": "/finsweet/static/js/main.c7454570.js.map",
     "453.e761adcc.chunk.js.map": "/finsweet/static/js/453.e761adcc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.006d0b64.css",
-    "static/js/main.29ba5cc3.js"
+    "static/js/main.c7454570.js"
   ]
 }
